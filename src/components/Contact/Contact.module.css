@@ -1,0 +1,44 @@
+.itemBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.leftBox {
+    flex: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 50px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.number {
+    color: #666;
+
+}
+
+.btn {
+    background-color: #f5f5f5;
+    color: #000;
+    border: 1px solid darkgrey;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #f9f9f9;
+}
+
+.svg {
+    fill: #666;
+    margin-right: 5px;
+    height: 14px;
+    width: 14px;
+}
