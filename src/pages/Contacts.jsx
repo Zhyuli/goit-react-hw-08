@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import DocTitle from "../DocTitle/DocTitle";
+import DocTitle from "../components/DocTitle/DocTitle";
 import ContactList from "../ContactList/ContactList";
 import ContactForm from "../ContactForm/ContactForm";
 import SearchBox from "../SearchBox/SearchBox";
