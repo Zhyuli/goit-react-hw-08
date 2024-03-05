@@ -21,10 +21,8 @@ export default function Home() {
 
       <div style={styles.container}>
         <h1 style={styles.title}>
-          Phonebook welcome page{" "}
-          <span role="img" aria-label="Greeting icon">
-            💁‍♀️
-          </span>
+          Phonebook welcome page
+          <span role="img" aria-label="Greeting icon"></span>
         </h1>
       </div>
     </>

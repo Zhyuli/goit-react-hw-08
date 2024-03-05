@@ -32,8 +32,6 @@ export const DrawerAppBar = () => {
     setMobileOpen(!mobileOpen);
   };
 
-  // Видалено const container, оскільки використання document.body не змінюється
-
   return (
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
@@ -59,8 +57,6 @@ export const DrawerAppBar = () => {
           {isLoggedIn ? <UserMenu /> : <AuthNav />}
         </Toolbar>
       </AppBar>
-
-      {/* Якщо потрібен Drawer для мобільних пристроїв, можна реалізувати тут */}
     </Box>
   );
 };
