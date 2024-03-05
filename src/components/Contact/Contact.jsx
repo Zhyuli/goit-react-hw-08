@@ -3,7 +3,7 @@ import css from "./Contact.module.css";
 import { useDispatch } from "react-redux";
 import { deleteContact } from "../../redux/operations";
 
-const ContactListItem = ({ contact: { id, name, phone } }) => {
+const ContactListItem = ({ contact: { id, name, number } }) => {
   const dispatch = useDispatch();
 
   const handleDelete = () => dispatch(deleteContact(id));
@@ -18,7 +18,7 @@ const ContactListItem = ({ contact: { id, name, phone } }) => {
         <p className={css.number}>
           {" "}
           <FiPhone className={css.svg} />
-          {phone}
+          {number}
         </p>
       </div>
       <button className={css.btn} onClick={handleDelete}>
