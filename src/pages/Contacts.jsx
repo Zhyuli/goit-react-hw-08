@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import DocTitle from "../components/DocTitle/DocTitle";
-import ContactList from "../ContactList/ContactList";
-import ContactForm from "../ContactForm/ContactForm";
-import SearchBox from "../SearchBox/SearchBox";
+import ContactList from "../components/ContactList/ContactList";
+import ContactForm from "../components/ContactForm/ContactForm";
+import SearchBox from "../components/SearchBox/SearchBox";
 import { fetchContacts } from "../../redux/operations";
 import { getError, getIsLoading } from "./redux/selectors";
 
