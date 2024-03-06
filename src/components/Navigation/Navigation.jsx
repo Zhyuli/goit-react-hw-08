@@ -13,7 +13,7 @@ export const Navigation = () => {
       </NavLink>
       {isLoggedIn && (
         <NavLink to="/contacts" style={{ textDecoration: "none" }}>
-          <Button color="inherit">Contacts</Button>
+          <Button sx={{ color: "#fff", margin: "0 10px" }}>Contacts</Button>
         </NavLink>
       )}
     </nav>
